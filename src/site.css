@@ -1,0 +1,102 @@
+.background-image{
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    justify-content: center;
+}
+
+.login-input{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+
+.css-1yrc8ca-MuiInputBase-input-MuiInput-input:hover{
+  border-bottom: none;
+}
+
+.login-main{
+    width: 360px;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.input-style{
+    background-color: black;
+    border: 3px solid #61dafb;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #61dafb !important;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.css-1cmet5c-MuiInputBase-root-MuiInput-root::after{
+    border-bottom: none;
+}
+
+.submit-button{
+    background-color: black;
+    padding: 5px 20px;
+    border: 2px solid #13d9ce;
+    border-radius: 5px;
+    color: #08e1ed;
+    font-size: 13px;
+    font-weight: 900;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* .submit-button::before,.submit-button::before {
+  content: "";
+  background-image: conic-gradient(red, blue);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  translate: -22% -19%;
+  z-index: -1;
+  padding: 4px;
+} */
+
+.error-style {
+    color: red;
+    display: flex;
+    margin: -3px 0px 13px 10px;
+}
+
+.css-ptdwpq-MuiPaper-root-MuiAppBar-root {
+  background-color: green !important;
+}
+
+.css-o8onhm-MuiPaper-root-MuiCard-root {
+    background-color: #052c28  !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+}
+input:-internal-autofill-selected {
+    background-color: black !important;
+}
+
+.animation-class{
+    animation: slide-card 2s ease-out 0s;
+}
+
+@keyframes slide-card {
+    0%{
+        margin-left: 50px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
