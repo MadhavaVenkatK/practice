@@ -16,7 +16,7 @@ class HomePage extends Component {
                         array.map((item, index) =>{
                           return (
                             <Grid className="animation-class" style={{display: 'flex'}}>
-                           <MultiActionAreaCard />
+                              <MultiActionAreaCard />
                            </Grid>
                           )
                         })

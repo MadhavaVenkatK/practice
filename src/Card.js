@@ -9,7 +9,7 @@ import CardActions from '@mui/material/CardActions';
 
 export default function MultiActionAreaCard() {
   return (
-    <Card sx={{ maxWidth: 300 }}>
+    <Card sx={{ maxWidth: 300,background: "#052c28", borderRadius: '10px' }} >
       <CardActionArea>
         <CardMedia
           component="img"
@@ -18,10 +18,10 @@ export default function MultiActionAreaCard() {
           alt="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5" component="div" sx={{color: 'white'}}>
             Lizard
           </Typography>
-          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+          <Typography variant="body2" sx={{ color: 'gray' }}>
             Lizards are a widespread group of squamate reptiles, with over 6,000
             species, ranging across all continents except Antarctica
           </Typography>
